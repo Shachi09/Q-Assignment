@@ -2,12 +2,29 @@
 # To run Application
 
 1- Frontend Setup: 
-  i. To include all packages: npm i inside FrontEnd folder.
+  i. To include all packages: npm i inside FrontEnd folder (require Node version 18 and further).
   ii. Update BASE_URL in D:\Github\Q-Assignment\FrontEnd\src\utils with your backend url, to call api
+  iii. check for applications dependencies at package.json file
+    "dependencies": {
+     "@emotion/react": "^11.14.0",
+     "@emotion/styled": "^11.14.0",
+     "@mui/icons-material": "^6.4.2",
+     "@mui/material": "^6.4.2",
+     "react": "^18.3.1",
+     "react-dom": "^18.3.1",
+     "react-hook-form": "^7.54.2",
+     "react-router-dom": "^7.1.4",
+     "react-toastify": "^11.0.3"
+   },
+   * if any dependency related error occur try uninstall and reinstall respective 
+   *if any vite related error occurs try run following command on your directory's terminal: ( npm install -g vite
+    npm install vite --save-dev)
+
+
 
 2- Backend Setup:
   i. import ecart folder provided SDE
-  ii. check if following is installed: Java JDK, mvn
+  ii. check if following is installed: Java JDK(17.0.14), mvn(3.9.9)
   iii. run the java code (termianl should print Started EcartApplication (process running)).
 
 3- start frontend:
