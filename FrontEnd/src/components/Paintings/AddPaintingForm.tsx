@@ -88,6 +88,7 @@ const AddPaintingForm = () => {
         height: "100vh",
         width: "100vw",
         backgroundColor: "white",
+        overflowY: "auto",
       }}
     >
       <Container

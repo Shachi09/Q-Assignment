@@ -115,6 +115,7 @@ useEffect(() => {
         height: "100vh",
         width: "100vw",
         backgroundColor: "white",
+        overflowY: "auto",
       }}
     >
       <Container
@@ -123,7 +124,7 @@ useEffect(() => {
           borderRadius: "10px",
           width: "80%",
           height: "90%",
-          msOverflowY: "auto",
+          overflowY: "auto",
         }}
       >
         <Typography
