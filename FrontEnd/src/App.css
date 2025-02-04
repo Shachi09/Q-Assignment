@@ -1,0 +1,13 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 ;
+  padding: 0;
+  /* text-align: center; */
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #2A0C4E;
+  --primaryLight-color: #C0A5CA;
+  --secondary-color: #9E2B25;
+}
